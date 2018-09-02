@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function (){
 			displayMovies(searchresmovies);
 		}
 		else{
-			//displayMovies(allMovies);
+			displayMovies(allMovies);
 		}
 	});
 	document.getElementById("filtertext").addEventListener("keyup", function (e){
@@ -55,6 +55,9 @@ document.addEventListener("DOMContentLoaded", function (){
 			}
 			
 			displayMovies(searchresmovies);
+		}
+		else{
+			displayMovies(allMovies);
 		}
 	});
 });
