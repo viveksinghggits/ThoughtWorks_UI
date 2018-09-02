@@ -1,0 +1,104 @@
+*{
+    font-family: 'Varela Round', sans-serif;
+}
+#header{
+    padding: 10px;
+    
+}
+#mainwrapper{
+    margin: auto;
+    width: 90%;
+
+}
+@media(max-width:1224px){
+    #mainwrapper{
+        margin: auto;
+        width: 65%;
+    }
+}
+@media(max-width:1130px){
+    #mainwrapper{
+        width: 70%;
+        margin: auto;
+    }
+}
+@media(max-width:1051px){
+    #mainwrapper{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media(max-width:921px){
+    #mainwrapper{
+        width: 90%;
+        margin: auto;
+    }
+}
+@media(max-width:821px){
+    #mainwrapper{
+        width: 100%;
+        margin: auto;
+    }
+}
+@media(max-width:735px){
+    #mainwrapper{
+        width: 100%;
+        margin: auto;
+    }
+}
+.amvbox{
+    border: 1px solid #3601b6;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    float: left;
+    height: 260px;
+    margin-left: 20px;
+    margin-top: 20px;
+    -webkit-transition: all ease 500ms;
+}
+.amvbox:hover{
+    -webkit-transform: scale(1.02);
+}
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.movietitle{
+    color:#3601b6;
+}
+.movieheader{
+    padding: 10px;
+}
+.moviedet{
+    
+    padding: 10px;
+}
+.genres{
+    border-top: 1px solid #3601b61f;
+    padding: 10px;
+    overflow-wrap: break-word;
+}
+select, input{
+    padding: 5px;
+}
+#filter{
+    margin: auto;
+}
+.sortfilter{
+    float: left;
+}
+#searchbox{
+    
+}
+.sortfilter{
+	
+	padding: 10px;
+	height:40px;
+	margin-left:30px;
+}
+#underheader{
+	width:838px;
+	margin:auto;
+}

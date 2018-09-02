@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>ThoughtWorks UI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    
+</head>
+<body>
+    <div id="header">
+        <div>
+            <h3><a href="">All Movies</a></h3>
+        </div>
+		<div id="underheader">
+			<div id="filter" class="sortfilter">
+				Filter the movies by <br>
+				<select id="filter_type">
+					<option value="l">
+						Language
+					</option>
+					<option value="c">
+						Country
+					</option>
+				</select>
+				<input type="text" id="filtertext"> 
+			</div>
+			
+			<div id="searchbox" class="sortfilter">
+				Search Movies by name <br>
+				<input type="text" placeholder="type atleast 4 chars" id="searchterm">
+			</div>
+			
+			<div id="sort" class="sortfilter">
+				<span>Sort by </span><br>
+				<div>
+					<input type="radio" name="sortby" onclick="sortResult('year')"> Title Year
+					<input type="radio" name="sortby" onclick="sortResult('rating')"> Popularity Rating
+				</div>
+			</div>
+		</div>	
+    </div>
+    <div id="mainwrapper" style="clear: both;">
+        <div id="main">
+            
+        </div>
+    </div>
+	<script src="script.js"></script>
+</body>
+</html>
